@@ -4,18 +4,28 @@ Hey there! 👋
 This is a full-stack Authentication Application I built using React (with Vite) for the frontend and Django (with Django REST Framework) for the backend. I wanted to explore different ways of handling authentication, so I ended up combining Django Allauth and SimpleJWT to manage user registration, login, and token handling. It’s a fun little project where I got to touch both frontend and backend — and I’m pretty happy with how it turned out!
 
 🏗️ Tech Stack
+
 Frontend
+
 ⚛️ React (Vite-powered for super-fast dev experience)
 🎨 Basic styling (nothing too fancy, just keeping it clean)
+
 Backend
+
 🐍 Django (with Django REST Framework)
 🛂 Django Allauth (for user registration and email login)
 🔐 SimpleJWT (for token-based authentication)
+
 Database
+
 🗄️ SQLite3 (kept it simple because it’s just a personal project — easy setup, no hassle)
+
 Security & Cross-Origin
+
 🌐 CORS Headers (so my frontend and backend can talk to each other without yelling about CORS errors)
+
 🚀 Features
+
 ✅ User Registration (using Allauth)
 ✅ User Login (JWT-based with SimpleJWT)
 ✅ Token Refresh (so you don’t get logged out every 5 minutes)
